@@ -1,0 +1,21 @@
+./Hangman/tests/test_leaderboard.py:5:1: redefinition of unused 'MagicMock' from line 2
+./Hangman/tests/test_leaderboard.py:5:1: redefinition of unused 'patch' from line 2
+./Hangman/tests/test_leaderboard.py:6:1: 'io.StringIO' imported but unused
+./Hangman/tests/test_leaderboard.py:7:1: redefinition of unused 'patch' from line 5
+./Hangman/tests/test_leaderboard.py:7:1: redefinition of unused 'call' from line 5
+./Hangman/tests/test_leaderboard.py:7:1: 'unittest.mock.call' imported but unused
+./Hangman/tests/test_leaderboard.py:8:1: redefinition of unused 'unittest' from line 1
+./Hangman/tests/test_leaderboard.py:9:1: redefinition of unused 'Leaderboard' from line 3
+./Hangman/tests/test_leaderboard.py:10:1: 'io' imported but unused
+./Hangman/tests/test_leaderboard.py:11:1: 'sys' imported but unused
+./Hangman/tests/test_leaderboard.py:155:13: local variable 'conn' is assigned to but never used
+./Hangman/tests/test_app.py:3:1: 'unittest.mock.patch' imported but unused
+./Hangman/tests/test_app.py:6:1: 'app.main' imported but unused
+./Hangman/tests/test_playerinterface.py:2:1: 'unittest.mock.call' imported but unused
+./Hangman/tests/test_playerinterface.py:3:1: 'sqlite3' imported but unused
+./Hangman/Modules/leaderboard.py:3:1: 'sqlite3.DataError' imported but unused
+./Hangman/Modules/leaderboard.py:59:27: f-string is missing placeholders
+./Hangman/Modules/leaderboard.py:60:27: f-string is missing placeholders
+./Hangman/Modules/words.py:2:1: 'sqlite3.Error' imported but unused
+./Hangman/Modules/words.py:3:1: 'random' imported but unused
+./Hangman/Modules/gamelogic.py:43:16: f-string is missing placeholders

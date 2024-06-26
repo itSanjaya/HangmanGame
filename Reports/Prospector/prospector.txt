@@ -1,0 +1,283 @@
+>> prospector --strictness veryhigh
+
+Messages
+========
+
+Database/database.py
+  Line: 3
+    pylint: invalid-name / Constant name "path" doesn't conform to UPPER_CASE naming style
+
+Hangman/Modules/__init__.py
+  Line: 1
+    pylint: invalid-name / Module name "Modules" doesn't conform to snake_case naming style
+
+Hangman/Modules/gamelogic.py
+  Line: 3
+    pycodestyle: E302 / expected 2 blank lines, found 1 (col 1)
+  Line: 5
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 6
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 9
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 10
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 11
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 12
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 15
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 18
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 21
+    pycodestyle: E303 / too many blank lines (2) (col 5)
+  Line: 22
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 23
+    pylint: bad-indentation / Bad indentation. Found 8 spaces, expected 12
+  Line: 24
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 26
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 27
+    pylint: bad-indentation / Bad indentation. Found 8 spaces, expected 12
+  Line: 29
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 31
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 32
+    pylint: bad-indentation / Bad indentation. Found 8 spaces, expected 12
+  Line: 33
+    pylint: no-else-return / Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (col 8)
+    pylint: bad-indentation / Bad indentation. Found 8 spaces, expected 12
+  Line: 34
+    pycodestyle: E501 / line too long (87 > 79 characters) (col 80)
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 11)
+  Line: 35
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 11)
+  Line: 36
+    pylint: bad-indentation / Bad indentation. Found 8 spaces, expected 12
+  Line: 37
+    pycodestyle: E501 / line too long (97 > 79 characters) (col 80)
+    pylint: bad-indentation / Bad indentation. Found 12 spaces, expected 16
+  Line: 39
+    pylint: no-else-return / Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (col 6)
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 40
+    pylint: bad-indentation / Bad indentation. Found 8 spaces, expected 12
+  Line: 41
+    pylint: bad-indentation / Bad indentation. Found 8 spaces, expected 12
+  Line: 42
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 43
+    pylint: bad-indentation / Bad indentation. Found 8 spaces, expected 12
+    pylint: f-string-without-interpolation / Using an f-string that does not have any interpolated variables (col 15)
+  Line: 46
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 49
+    pycodestyle: E501 / line too long (87 > 79 characters) (col 80)
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 52
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 55
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+  Line: 56
+    pylint: bad-indentation / Bad indentation. Found 8 spaces, expected 12
+  Line: 57
+    pycodestyle: E111 / indentation is not a multiple of 4 (col 7)
+
+Hangman/Modules/leaderboard.py
+  Line: 3
+    pylint: unused-import / Unused DataError imported from sqlite3
+  Line: 5
+    pycodestyle: E302 / expected 2 blank lines, found 1 (col 1)
+  Line: 6
+    pylint: invalid-name / Argument name "db" doesn't conform to snake_case naming style (col 23)
+  Line: 9
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 10
+    pylint: invalid-name / Attribute name "db" doesn't conform to snake_case naming style (col 8)
+  Line: 11
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 13
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 16
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 17
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 18
+    pycodestyle: E303 / too many blank lines (2) (col 5)
+  Line: 25
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 36
+    pycodestyle: E501 / line too long (83 > 79 characters) (col 80)
+  Line: 40
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 44
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 49
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 53
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 54
+    pycodestyle: E501 / line too long (88 > 79 characters) (col 80)
+  Line: 57
+    pycodestyle: W291 / trailing whitespace (col 43)
+  Line: 59
+    pylint: f-string-without-interpolation / Using an f-string that does not have any interpolated variables (col 26)
+  Line: 60
+    pylint: f-string-without-interpolation / Using an f-string that does not have any interpolated variables (col 26)
+  Line: 61
+    pycodestyle: E501 / line too long (88 > 79 characters) (col 80)
+  Line: 62
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 63
+    pycodestyle: W292 / no newline at end of file (col 21)
+
+Hangman/Modules/playerinterface.py
+  Line: 3
+    pycodestyle: E302 / expected 2 blank lines, found 1 (col 1)
+  Line: 10
+    pycodestyle: N802 / function name 'promptUser' should be lowercase (col 10)
+    pylint: invalid-name / Method name "promptUser" doesn't conform to snake_case naming style (col 4)
+  Line: 13
+    pycodestyle: N806 / variable 'userInput' in function should be lowercase (col 14)
+    pylint: invalid-name / Variable name "userInput" doesn't conform to snake_case naming style (col 12)
+  Line: 17
+    pycodestyle: N802 / function name 'getUserName' should be lowercase (col 10)
+    pycodestyle: N803 / argument name 'userInput' should be lowercase (col 36)
+    pylint: invalid-name / Method name "getUserName" doesn't conform to snake_case naming style (col 4)
+  Line: 18
+    pycodestyle: E501 / line too long (92 > 79 characters) (col 80)
+  Line: 22
+    pycodestyle: N806 / variable 'defaultScore' in function should be lowercase (col 14)
+    pylint: invalid-name / Variable name "defaultScore" doesn't conform to snake_case naming style (col 12)
+  Line: 23
+    pycodestyle: E501 / line too long (110 > 79 characters) (col 80)
+  Line: 26
+    pycodestyle: N802 / function name 'hangmanList' should be lowercase (col 10)
+    pylint: invalid-name / Method name "hangmanList" doesn't conform to snake_case naming style (col 4)
+  Line: 27
+    pycodestyle: N806 / variable 'hangmanDraw' in function should be lowercase (col 10)
+    pylint: invalid-name / Variable name "hangmanDraw" doesn't conform to snake_case naming style (col 8)
+  Line: 28
+    pycodestyle: E122 / continuation line missing indentation or outdented (col 9)
+  Line: 37
+    pycodestyle: E122 / continuation line missing indentation or outdented (col 9)
+  Line: 46
+    pycodestyle: E122 / continuation line missing indentation or outdented (col 9)
+  Line: 55
+    pycodestyle: E122 / continuation line missing indentation or outdented (col 9)
+  Line: 64
+    pycodestyle: E122 / continuation line missing indentation or outdented (col 9)
+  Line: 73
+    pycodestyle: E122 / continuation line missing indentation or outdented (col 9)
+  Line: 82
+    pycodestyle: E122 / continuation line missing indentation or outdented (col 9)
+  Line: 91
+    pycodestyle: E122 / continuation line missing indentation or outdented (col 9)
+  Line: 100
+    pycodestyle: E122 / continuation line missing indentation or outdented (col 9)
+  Line: 109
+    pycodestyle: E122 / continuation line missing indentation or outdented (col 9)
+  Line: 123
+    pycodestyle: N802 / function name 'displayHangman' should be lowercase (col 10)
+    pycodestyle: N803 / argument name 'wrongGuesses' should be lowercase (col 31)
+    pycodestyle: E303 / too many blank lines (2) (col 5)
+    pylint: invalid-name / Method name "displayHangman" doesn't conform to snake_case naming style (col 4)
+  Line: 128
+    pycodestyle: N802 / function name 'displayGuessedLetters' should be lowercase (col 10)
+    pycodestyle: N803 / argument name 'secretWord' should be lowercase (col 38)
+    pycodestyle: E303 / too many blank lines (2) (col 5)
+    pylint: invalid-name / Method name "displayGuessedLetters" doesn't conform to snake_case naming style (col 4)
+  Line: 129
+    pycodestyle: E501 / line too long (103 > 79 characters) (col 80)
+  Line: 131
+    pycodestyle: N802 / function name 'secretWordLength' should be lowercase (col 10)
+    pycodestyle: N803 / argument name 'secretWord' should be lowercase (col 33)
+    pylint: invalid-name / Method name "secretWordLength" doesn't conform to snake_case naming style (col 4)
+  Line: 134
+    pycodestyle: N802 / function name 'getUserGuessLetter' should be lowercase (col 10)
+    pylint: invalid-name / Method name "getUserGuessLetter" doesn't conform to snake_case naming style (col 4)
+  Line: 137
+    pycodestyle: N802 / function name 'playGameAgain' should be lowercase (col 10)
+    pylint: invalid-name / Method name "playGameAgain" doesn't conform to snake_case naming style (col 4)
+  Line: 138
+    pycodestyle: N806 / variable 'playAgain' in function should be lowercase (col 10)
+    pylint: invalid-name / Variable name "playAgain" doesn't conform to snake_case naming style (col 8)
+  Line: 139
+    pylint: no-else-return / Unnecessary "else" after "return", remove the "else" and de-indent the code inside it (col 8)
+    pylint: simplifiable-if-statement / The if statement can be replaced with 'return bool(test)' (col 8)
+
+Hangman/Modules/words.py
+  Line: 2
+    pylint: unused-import / Unused Error imported from sqlite3
+  Line: 3
+    pylint: unused-import / Unused import random
+  Line: 5
+    pylint: invalid-name / Constant name "database_path" doesn't conform to UPPER_CASE naming style
+  Line: 7
+    pycodestyle: E302 / expected 2 blank lines, found 1 (col 1)
+  Line: 18
+    pycodestyle: W291 / trailing whitespace (col 18)
+  Line: 19
+    pycodestyle: W291 / trailing whitespace (col 17)
+  Line: 21
+    pycodestyle: E302 / expected 2 blank lines, found 1 (col 1)
+  Line: 32
+    pycodestyle: W391 / blank line at end of file (col 1)
+    pylint: trailing-newlines / Trailing newlines
+
+Hangman/app.py
+  Line: 1
+    pycodestyle: N813 / camelcase 'Modules.gamelogic' imported as lowercase 'gamelogic' (col 2)
+    pylint: consider-using-from-import / Use 'from Modules import gamelogic' instead
+  Line: 2
+    pycodestyle: N813 / camelcase 'Modules.playerinterface' imported as lowercase 'playerinterface' (col 2)
+    pylint: consider-using-from-import / Use 'from Modules import playerinterface' instead
+  Line: 4
+    pycodestyle: N813 / camelcase 'Modules.words' imported as lowercase 'words' (col 2)
+    pylint: consider-using-from-import / Use 'from Modules import words' instead
+  Line: 6
+    pycodestyle: E302 / expected 2 blank lines, found 1 (col 1)
+  Line: 9
+    pylint: invalid-name / Attribute name "pi" doesn't conform to snake_case naming style (col 8)
+  Line: 10
+    pylint: invalid-name / Attribute name "gl" doesn't conform to snake_case naming style (col 8)
+  Line: 22
+    pycodestyle: E501 / line too long (91 > 79 characters) (col 80)
+  Line: 23
+    pycodestyle: E501 / line too long (101 > 79 characters) (col 80)
+  Line: 29
+    pycodestyle: E501 / line too long (105 > 79 characters) (col 80)
+  Line: 33
+    pycodestyle: W293 / blank line contains whitespace (col 1)
+  Line: 38
+    pycodestyle: E301 / expected 1 blank line, found 0 (col 5)
+  Line: 45
+    pycodestyle: E302 / expected 2 blank lines, found 1 (col 1)
+  Line: 48
+    pylint: invalid-name / Variable name "pi" doesn't conform to snake_case naming style (col 4)
+  Line: 49
+    pylint: invalid-name / Variable name "gl" doesn't conform to snake_case naming style (col 4)
+  Line: 53
+    pycodestyle: E305 / expected 2 blank lines after class or function definition, found 1 (col 1)
+  Line: 55
+    pycodestyle: W391 / blank line at end of file (col 1)
+    pylint: trailing-newlines / Trailing newlines
+
+
+
+Check Information
+=================
+         Started: 2024-05-06 22:09:27.316194
+        Finished: 2024-05-06 22:09:27.935149
+      Time Taken: 0.62 seconds
+       Formatter: grouped
+        Profiles: default, strictness_veryhigh, no_doc_warnings, no_test_warnings, no_member_warnings
+      Strictness: veryhigh
+  Libraries Used: 
+       Tools Run: dodgy, mccabe, profile-validator, pycodestyle, pyflakes, pylint
+  Messages Found: 140
+ External Config: pylint: /Users/maimunaz/Downloads/github/g3--group_5/setup.cfg
